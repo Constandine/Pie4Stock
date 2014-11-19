@@ -1,0 +1,99 @@
+#main1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+  border-style: dotted;
+}
+
+form1 {
+  position: absolute;
+  left: 70px;
+  top: 210px;
+  display : inline-block;
+}
+form2{
+  position: absolute;
+  left: 70px;
+  top: 240px;
+  display : inline-block;
+}
+
+path {
+  stroke: #fff;
+  fill-rule: evenodd;
+}
+#explanation1 {
+  position: absolute;
+  top: 250px;
+  left: 590px;
+  width: 400px;
+  font-size: 0.5em;
+  text-align: center;
+  color: #666;
+  z-index: 1;
+  -moz-user-select:none;
+  margin-top: 40;
+}
+
+
+#explanation1 p{
+  text-align: left;
+  width: 300px;
+  font-weight: 400;
+  font-family: 'Droid Sans', sans-serif;
+  border-bottom-color: rgb(68, 68, 68);
+  font-size: 14px;
+  line-height:18px;
+}
+
+#explanation1 .firstworddown:first-letter{
+  font-size:2em;
+  padding-right:5px; 
+  text-transform:uppercase;
+}
+
+#explanation1 label{
+}
+
+#explanation1 .topdisplay{
+  height: 20px;
+  font-size: 15px;
+  display: inline;
+  float:left;
+  display: block;
+  float: left;
+  width: 100px;
+  text-align: left;
+} 
+
+#explanation1 .todisplay2{
+  white-space:normal;
+  text-align: left;
+  width:200px;
+  font-size: 3em;
+  float: left;
+  display: block;
+}
+
+#explanation1 #ComName{
+  width:330px;
+  font-size: 3.5em;
+  float: left;
+  display: block;
+  white-space:normal;
+  z-index: 20;
+}
+
+
+#exp1{
+  height: 100px;
+}
+#exp2{
+  height: 100px;
+}
+
+#warn{
+  font-size: 5em;
+}
+

@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #f9f9f9;
+  width: 960px;
+  height: 600px;
+  margin-top: 10px;
+}
+
+#main {
+  float: left;
+  width: 804px;
+}
+
+#sidebar {
+  float:left;
+  width: 150px;
+  padding-top: 50px;
+}
+
+#sequence {
+  width: 804px;
+  height: 70px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 20px;
+  left: 555px;
+  width: 140px;
+  text-align: left;
+  color: #666;
+  z-index: -1;
+}
+
+#company{
+  font-size: 2em;
+  white-space:normal;
+  display: inline-block;
+  width:250px;
+}
+#marketcap{
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+#percentage {
+  font-size: 1.5em;
+}
+#words{
+  z-index: -1;
+  width:  100px;
+}
+
+.saythings{
+  width:250px;
+  padding-top: 20px;
+}
