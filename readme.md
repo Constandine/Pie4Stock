@@ -1,9 +1,7 @@
-# Read Me
-
 ## Use it online
 **If you want to see the final result, please use the following website:**
 
-[http://www.pie4stock.com](http://www.pie4stock.com)
+~~[http://www.pie4stock.com](http://www.pie4stock.com)~~
 
 ## Use it offline
 1. Please open index.html to display the program.
